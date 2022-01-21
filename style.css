@@ -1,0 +1,97 @@
+/* index****************************************************************** */
+.clear{
+    clear: both;
+}
+
+body{
+    background-color: #9cbdfcd0;
+}
+h1{
+    text-align: center;
+    transform: translate(-50%,-50%);
+    width: 400px;
+	height: 500px;
+	position: absolute;
+	left: 50%;
+    top: 50%;
+}
+input[type=text] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+#info{
+    height: 100%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    width: 300px;
+	height: 300px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+}
+button {
+  background-color: #58257b;
+  border: none;
+  color: white;
+  padding: 10px 27px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px;
+  border-radius: 10px;
+}
+
+
+/* Quiz********************************************************************************* */
+/*==Thiết lập container==*/
+ 
+.container {
+   width: 100%;
+}
+/*==cột #info==*/
+.info {
+   width: 30%;
+   height: 35px;
+   float: left;
+    text-align: center;
+    padding-top: 5px;
+    background-color: #94b7fa;
+    font-size: 20px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+/*==cột #time==*/
+.time {
+ width: 40%;
+ height: 40px;
+ float: left;
+ text-align: center;
+ font-size: 30px;
+ color: red;
+ background-color: #94b7fa;
+}
+/*==cột #finish==*/
+.finish{
+    width: 30%;
+    height: 40px;
+    text-align: center;
+    float: right;
+    background-color: #94b7fa;
+}
+.l{
+    text-align: justify;
+}
+
+/* main */
+.main{
+    background-color:  #9cbdfcd0;
+}
+#question{
+    margin-top: 10px;
+    display: block;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="bootstrap4/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.jpg" type="image/x-icon" />
+    <title>QUIZ</title>
+</head>
+<body onload="ininfo()">
+    <div class="container">
+        <div class="header">
+            <!-- thông tin -->
+            <div class="info">
+                <div id="ininfo"></div>
+            </div>
+            <!-- thời gian -->
+            <div class="time">
+                <span id="m"></span> :
+                <span id="s"></span>
+                <script src="lock.js"></script>
+            </div>
+            <!-- nút hoàn thành -->
+            <div class="finish">
+                <button id="l" onclick="lock()">Hoàn Thành</button>
+            </div>
+        
+        </div>
+        <div class="clear"></div>
+        <div class="main">
+            <!-- quiz -->
+            <div id=question></div>
+            <script src="script.js"></script>
+        </div>
+    </div>
+    
+</body>
+</html>
